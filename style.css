@@ -94,3 +94,27 @@ body{
     background-color: #0A0826;
     color: #ffffff;
 }
+
+/* html-css responsive website with media query */
+/* Mobile Devices */
+
+@media only screen and (max-width:688px) {
+    .popular-datail{
+        width: 100%;
+    }
+    .populars{
+        background-color: rebeccapurple;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+}
+/* tab mobile */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    ..popular-datail{
+        width: 100%;
+    }
+    .populars{
+        background-color: rgb(18, 150, 128);
+        grid-template-columns: repeat(2,1fr);
+    }
+}
